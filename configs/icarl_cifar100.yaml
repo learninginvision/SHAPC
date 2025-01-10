@@ -1,0 +1,5 @@
+model: "icarl"
+dataset: "seq-cifar100"
+buffer_size: 500
+load_best_args: True
+nowand: 1

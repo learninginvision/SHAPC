@@ -1,0 +1,4 @@
+model: "si"
+dataset: "seq-cifar100"
+load_best_args: True
+nowand: 1

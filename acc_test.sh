@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python acc_test.py --model icarl --dataset seq-cifar10
