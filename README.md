@@ -42,7 +42,7 @@ We provide source about the datasets we use in our experiment as below:
 
 | Dataset   | Dataset file                                                 |
 | --------- | ------------------------------------------------------------ |
-| CIFAR-10| [DomainNet]( http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz) |
+| CIFAR-10| [CIFAR-10]( http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz) |
 | CIFAR-100  | [CIFAR-100](http://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz) |
 | TinyImageNet | [TinyImageNet](https://unimore365-my.sharepoint.com/:u:/g/personal/263133_unimore_it/EVKugslStrtNpyLGbgrhjaABqRHcE3PB_r2OEaV7Jy94oQ?e=9K29aD) |
 
