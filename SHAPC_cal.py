@@ -8,7 +8,7 @@ import argparse
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Train model with specified dataset')
-    parser.add_argument('--model', choices=['icarl', 'xder'], required=True, help='Model name (icarl or xder)')
+    parser.add_argument('--model', required=True, help='Model name')
     parser.add_argument('--dataset', required=True, help='Dataset name')
 
     return parser.parse_args()
