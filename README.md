@@ -1,9 +1,8 @@
-# :page_with_curl: LoRA-Based Continual Learning with Constraints on Critical Parameter Changes
+# :page_with_curl: Is Our Continual Learner Reliable? Investigating Its Decision Attribution Stability through SHAP Value Consistency
 
 This is the *Pytorch Implementation* for the paper:
 
-> **Is Our Continual Learner Reliable? Investigating Its Decision Attribution
-Stability through SHAP Value Consistency** <br>Yusong Cai,Shimou Ling, Liang Zhang, Lili Pan, Hongliang Li <br>
+> **Is Our Continual Learner Reliable? Investigating Its Decision Attribution Stability through SHAP Value Consistency** <br>Yusong Cai,Shimou Ling, Liang Zhang, Lili Pan, Hongliang Li <br>
 > 2024CVPRW
 
 > **Abstract**:  In this work, we identify continual learning (CL) methods' inherent differences in sequential decision attribution. 
