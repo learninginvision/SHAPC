@@ -124,10 +124,10 @@ def image(shap_values: Explanation or np.ndarray,
                 sorted_sv = np.sort(sv.flatten())
                 result = sorted_sv[int(sorted_sv.size*0.4)] 
                 # im = axes[row, i + 1].imshow(sv, cmap=cmap, vmin=2*result-max_val, vmax=max_val) 
-                im = axes[row, i + 1].imshow(sv, cmap='plasma', alpha=0.7, vmin=0.05, vmax=0.2)
+                im = axes[row, i + 1].imshow(sv, cmap='plasma', alpha=0.7, vmin=0.0, vmax=0.3)
             else:
                 # im = axes[row, i + 1].imshow(sv, cmap=cmap, vmin=-max_val, vmax=max_val)
-                im = axes[row, i + 1].imshow(sv, cmap='plasma', alpha=0.7, vmin=0.05, vmax=0.2)
+                im = axes[row, i + 1].imshow(sv, cmap='plasma', alpha=0.7, vmin=0.0, vmax=0.3)
 
             axes[row, i + 1].axis('off')
     if hspace == 'auto':
